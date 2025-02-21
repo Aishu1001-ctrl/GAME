@@ -1,14 +1,16 @@
 function startGame() {
     console.log("Game Started");
-    // Redirect to game page if needed
+    window.location.href = "../level/level.html"; // Redirect to level selection page
 }
 
 function openLeaderboard() {
     console.log("Opening Leaderboard");
-    // Redirect to leaderboard page if implemented
+    window.location.href = "../board/board.html"; // Redirect to level selection page
+    
 }
 
 function openProfile() {
     console.log("Opening Profile");
-    // Redirect to profile page if implemented
+    window.location.href = "../profile/profile.html"; // Redirect to level selection page
+    
 }
